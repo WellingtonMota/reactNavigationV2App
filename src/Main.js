@@ -11,10 +11,10 @@ export default class MainScreen extends React.Component {
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
         <Text style={{ color: '#457457' }}>Main Screen</Text>
         <Button
-          title="Go to Details"
+          title="Go to Cards"
           onPress={() => {
             /* 1. Navigate to the Details route with params */
-            this.props.navigation.navigate('Details', {
+            this.props.navigation.navigate('Cards', {
               itemId: 86,
               otherParam: 'anything you want here',
             });
